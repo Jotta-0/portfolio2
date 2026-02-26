@@ -1,6 +1,6 @@
 # Portifólio 2
 
-Projeto de portfólio pessoal feito em HTML e CSS.
+Projeto de portfólio feito em HTML e CSS.
 
 ## Estrutura do Projeto
 
