@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Desenvolvimento de Sistemas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Técnicos de Desenvolvimento de sistemas</h1>
+        <p>Técnico em Desenvolvimento de Sistemas</p>
+        <p>SENAC DF | 2025 - 2026</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+   <section id="inicio" class="perfil">
+    <h2>Sobre nós</h2>
+    <p>
+        Somos estudantes do curso Técnico em Desenvolvimento 
+        de Sistemas no SENAC (2025 - 2026). Temos grande interesse pela área de 
+        tecnologia e estamos desenvolvendo habilidades voltadas para programação, 
+        criação de sistemas e desenvolvimento de soluções digitais.
+    </p>
+    <p>
+        Buscamos constantemente evoluir nossos conhecimentos técnicos e práticos, 
+        aplicando o que aprendemos em projetos reais e desafios propostos durante o curso.
+    </p>
+</section>
+
+<section id="sobre" class="sobre">
+    <h2>Sobre o Curso</h2>
+    <p>
+        No curso Técnico em Desenvolvimento de Sistemas do SENAC, estou aprendendo 
+        lógica de programação, JavaScript, Java, Python e SQL, desenvolvendo 
+        competências fundamentais para atuar na área de tecnologia.
+    </p>
+
+    <p>
+        Além da programação, também estamos estudando design digital, utilizando 
+        ferramentas como Canva para criação visual e Figma para prototipagem 
+        de interfaces, o que amplia nossa visão sobre experiência do usuário.
+    </p>
+
+    <p>
+        Atualmente, estamos participando de um projeto prático em parceria com 
+        uma empresa real, onde estamos desenvolvendo um site profissional. 
+        Essa experiência está permitindo aplicar conhecimentos técnicos, 
+        trabalhar em equipe, lidar com prazos e entender as necessidades 
+        reais de um cliente.(UX x UI).
+    </p>
+</section>
+
+    <section id="formacao" class="educacao">
+    <h2>Formação e Competências</h2>
+
+    <ul>
+        <li>
+            <strong>Técnico em Desenvolvimento de Sistemas</strong><br>
+            SENAC<br>
+            Período: 2025 - 2026
+        </li>
+
+        <li>
+            <strong>Competências Técnicas</strong><br>
+            • Lógica de Programação<br>
+            • JavaScript<br>
+            • Java<br>
+            • Python<br>
+            • SQL (Banco de Dados)<br>
+            • Prototipagem no Figma<br>
+            • Design no Canva
+        </li>
+
+        <li>
+            <strong>Experiência Prática</strong><br>
+            Desenvolvimento de site para empresa real<br>
+            Trabalho em equipe<br>
+            Aplicação de metodologias e organização de projeto
+        </li>
+    </ul>
+</section>
+
+<section id="personalidade" class="personalidade">
+    <h2>Personalidade Profissional</h2>
+
+    <p>
+        Trabalhamos com
+        criatividade, fluidez de ideias e capacidade de adaptação.
+        Busco sempre experimentar novas soluções e organizar projetos
+        de forma clara e funcional.
+    </p>
+
+    <h3>Pontos Fortes</h3>
+    <ul>
+        <li>Criatividade para desenvolver soluções diferentes</li>
+        <li>Capacidade de experimentação e aprendizado contínuo</li>
+        <li>Organização no planejamento e execução de projetos</li>
+    </ul>
+
+    <h3>Pontos de Desenvolvimento</h3>
+    <ul>
+        <li>Tendência a ser muito detalhista</li>
+        <li>Buscar equilíbrio entre perfeição e prazo</li>
+        <li>Aprender a delegar tarefas em projetos em equipe</li>
+    </ul>
+</section>
+
+    
+<section id="contato" class="contato">
+    <h2>Entre em Contato Conosco</h2>
+    <p>Preencha o formulário abaixo para enviar uma mensagem.</p>
+
+    <form id="formContato">
+
+        <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <div class="campo">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+        </div>
+
+        <div class="campo">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer id="contato">
+        <p>Email: seuemail@email.com</p>
+        <p>© 2026 - João Pedro e Anna Eliza</p>
+    </footer>
+
+<script>
+    const form = document.getElementById("formContato");
+
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        alert("Sua mensagem foi enviada! Aguarde o retorno");
+
+        form.reset();
+    });
+</script>
+
+
+</body>
+</html>
